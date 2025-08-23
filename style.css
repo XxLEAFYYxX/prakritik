@@ -38,6 +38,48 @@
     src: url("fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayXXThin.ttf");
 }
 
-.test {
-font-family : 'groteskthin';
+.khabar {
+    position: absolute;
+    top:30px;
+    left: 765px
+}
+
+.header1 { 
+    font-family:'groteskbold';
+    text-align: center;
+    font-size: 63px;
+    position: absolute;
+    top: 140px;
+    left: 210px;
+    line-height: 95%;
+
+}
+
+.bottom {
+    font-family: 'grotesklight';
+    font-size: 10px;
+    position: absolute;
+    top: 320px;
+    left: 340px;
+}
+
+.order{
+    background-color: #FDC905;
+    color: rgb(130, 31, 31);
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
+
+.button {
+    background-color: #FDC905;
 }
