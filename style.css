@@ -82,4 +82,45 @@
 
 .button {
     background-color: #FDC905;
+    color: white;
+    width: 80px;
+    height: 25px;
+}
+
+.logop {
+    position: absolute;
+    top: 31px;
+    left: 44px;
+}
+
+.nav{
+    background: #F6F5F3;
+    border-radius: 42px;
+    width: 500px;
+    height: 45px;
+    box-align: middle;
+    font-family: 'groteskbold';
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+
+}
+li{
+    list-style: none;
+    display: inline;
+    font-family: 'groteskbold';
+    font-size: 12px;
+
+}
+
+li a{
+    margin-right: 31px;
+}
+
+.dark{
+    align-items: center;
+    margin-right: 100px;
+    
 }
